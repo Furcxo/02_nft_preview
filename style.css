@@ -35,7 +35,7 @@ h1 {
   margin-left: 2px;
   margin-right: 24px;
   font-family: "Outfit", sans-serif;
-  margin-bottom: 24px;
+  margin-bottom: 1px;
 }
 p {
   color: #8bacd9;
@@ -45,27 +45,35 @@ p {
   margin-left: 2px;
   margin-right: 24px;
   font-family: "Outfit", sans-serif;
-  margin-bottom: 24px;
+  margin-bottom: 1px;
 }
-
+#line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 7px;
+}
+#line div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+}
 h2 {
   color: #00fff8;
   display: inline;
   font-size: 16px;
-  padding: 24px;
+
   font-family: "Outfit", sans-serif;
 }
 
 h3 {
   color: #8bacd9;
   display: inline;
-  padding: 24px;
+
   font-family: "Outfit", sans-serif;
 }
-#picture {
-  width: 33px;
-  height: 33px;
-}
+
 #text {
   width: 81px;
   height: 20px;
@@ -78,8 +86,6 @@ h3 {
   font-family: "Outfit", sans-serif;
 }
 span {
-  width: 93px;
-  height: 20;
   color: #ffffff;
   size: 16px;
   margin-left: 1px;
@@ -91,10 +97,13 @@ span {
 
 #row {
   display: flex;
-
   margin-left: 2px;
   margin-right: 25px;
   margin-top: 40px;
   margin-bottom: 3px;
   border-top: 1px solid #2e405a;
+}
+#row img {
+  width: 33px;
+  height: 33px;
 }
