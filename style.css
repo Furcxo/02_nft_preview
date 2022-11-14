@@ -86,8 +86,9 @@ h3 {
   margin-right: 1px;
   margin-bottom: 3px;
 
-  font-family: ;
+  font-family: arial, sans-serif;
 }
+
 span {
   color: #ffffff;
   size: 16px;
@@ -111,4 +112,5 @@ span {
 #row img {
   width: 33px;
   height: 33px;
+  padding-right: 10px;
 }
